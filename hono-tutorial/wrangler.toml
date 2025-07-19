@@ -1,5 +1,9 @@
-name = "hono-tutorial"
+name = "hono-tutorial-2"
 compatibility_date = "2025-07-19"
+main = "src/index.ts"
+
+[assets]
+directory = "./src"
 
 # [vars]
 # MY_VARIABLE = "production_value"
