@@ -1,7 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "hono-tutorial",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "compatibility_date": "2025-07-19"
   // "compatibility_flags": [
   //   "nodejs_compat"
