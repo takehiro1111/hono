@@ -9,6 +9,17 @@
       "ESNext"
     ],
     "jsx": "react-jsx",
-    "jsxImportSource": "hono/jsx"
+    "jsxImportSource": "hono/jsx",
+    "rootDir": "./src",
+    "paths": {
+      "@/*": ["./src/*"],
+    },   
+    "outDir": "./dist",   
   },
+  "include": ["src/**/*.ts","src/__tests__/**/*.ts"],
+  "exclude": ["node_modules", "dist"],
+  // "ts-node": {
+  //     "esm": true,
+  //     "experimentalSpecifierResolution": "node"
+  //   },
 }
