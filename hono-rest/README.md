@@ -1,7 +1,7 @@
 # hono
 ## hono-rest
 
-### DB作成
+### プロジェクト作成
 ```zsh
 npm create cloudflare
 Need to install the following packages:
@@ -88,8 +88,9 @@ https://discord.cloudflare.com
 ────────────────────────────────────────────────────────────
 ```
 
+### DB作成
 ```zsh
-$npx wrangler d1 create hono-rest
+npx wrangler d1 create hono-rest
 
  ⛅️ wrangler 4.25.0
 ───────────────────

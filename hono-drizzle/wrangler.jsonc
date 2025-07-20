@@ -4,16 +4,22 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "hono-rest",
+	"name": "hono-drizzle",
 	"main": "src/index.ts",
 	"compatibility_date": "2025-07-19",
+	"compatibility_flags": [
+		"global_fetch_strictly_public"
+	],
+	"assets": {
+		"directory": "./public"
+	},
 	"observability": {
 		"enabled": true
 	},
 	"d1_databases": [
     {
       "binding": "DB",
-      "database_name": "hono-rest",
+      "database_name": "hono-drizzle",
       "database_id": "hoge"
     }
   ]
